@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.left {
+    position: absolute;
+    left: 60px;
+    top: 22px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+.left img {
+    width: 136px;
+}
+.left div {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 0px;
+}
+.mid {
+    display: block;
+    width: 46%;
+    margin: 35px auto;
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-weight: 600;
+}
+.navbar li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.navbar li a.active {
+    color: rgb(83, 80, 80);
+}
+.btn {
+    margin: 0px 9px;
+    background-color: lightgray;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(172, 171, 171);
+}
+.container{
+    margin:106px 470px;
+    padding:75px;
+    width:33%;
+    /* border: 2px solid black;
+    border-radius: 28px; */
+}
+.formgroup input{
+     text-align: center;
+     display: block;
+     width:500px;
+     padding: 3px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.container h3{
+     text-align: center;
+}
+.container button{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+.container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    padding: 2.5em;
+    font-weight: bold;
+}
+.weightlist{
+    padding: .5em;
+    font-weight:300;
+}
+.sectionhp{
+  height:10vh;
+}
