@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitnessgym</title>
+<link rel="stylesheet" href="css/task1.css">
+<style>
+    body{
+    background-image: image-set("pictures/IMG-20231030-WA0000.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+</style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- logo -->  
+            <img src="pictures/gym.png" alt="">
+            <div>
+                Fitnessgym
+            </div>
+        </div>
+        <div class="mid">
+            <!-- nav bag -->
+            <ul class="navbar">
+                <li><a href="practice1.html" class=active>Home</a></li>
+                <li><a href="p1dietchart.html">Diet chart</a></li>
+                <li><a href="p1workouts.html">Workouts</a></li>
+                <li><a href="p1aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- buttons -->
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+<div class="container">
+<form action="gym.php">
+  <h3> JOIN NOW </h3> 
+<div class="formgroup">
+<input type="text" name="name" placeholder="Enter your name">
+</div>
+<div class="formgroup">
+    <input type="text" name="address" placeholder="Enter your address">
+    </div>
+    <div class="formgroup">
+        <input type="age" name="age" placeholder="Enter your age">
+        </div>
+        <div class="formgroup">
+            <input type="phone number" name="pnumber" placeholder="Enter your phone number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="gender" placeholder="Enter your gender">
+                </div>
+            <button class="btn">
+                Submit
+            </button>
+</form>
+</div>
+</body>
+
+</html>
