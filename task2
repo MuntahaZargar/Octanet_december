@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/task2.css">
+    <script src="task2.js"></script>
+    <style>
+        body{
+        background-image :image-set("pictures/time.jpg");
+        background-repeat :no-repeat ;
+        background-size :100%;
+        }
+        </style>
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header class="head"></header>
+            <div class="row">
+                <strong>ToDo List</strong>
+            </div>
+    </header>
+
+    <div class="container">
+        <h2>Add Items</h2>
+
+        <label id="lblsuccess" class="text-success" style="display: none;">
+        </label>
+
+        <form id="addForm">
+            <div class="row1">
+                <div>
+                    <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control" id="item">
+                </div>
+                <div id="col">
+                    <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled>
+                </div>
+            </div>
+        </form>
+
+        <h3 class="task">Tasks</h3>
+
+        <form id="addForm">
+            <ul class="list-group" id="items"></ul>
+        </form>
+    </div>
+</body>
+</html>
